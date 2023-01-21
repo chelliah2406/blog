@@ -1,0 +1,22 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="card">
+  <h2>All About Support</h2>
+  <h5>IT Application support Guide, Jan 21, 2023</h5>
+  <div class="fakeimg" style="height:300px;">
+    <img id="supportimg" src="{{ url_for('static', filename='images/support.jpeg') }}" alt="first" style="width:100%; height:100%">
+  </div>
+  <p>Perfect guide to move up the labber being in support role</p>
+  <p>Application support role is one of the primary role in IT, but it is not focused as much as other roles, sometimes it's difficult to move up the ladder being in support
+  </p>
+</div>
+<div class="card">
+  <h2>IT Trends</h2>
+  <h5>Key Learning areas to grow & shine in 2023, Jan 21, 2023</h5>
+  <div class="fakeimg" style="height:300px;">
+    <img id="supportimg" src="{{ url_for('static', filename='images/monovsmicro.jpeg') }}" alt="first" style="width:100%; height:100%">
+  </div>
+  <p>Trends</p>
+  <p>Microservices, Devops, containers based deployments, API's and Cloud migrations are the upcoming trends, understanding of these technologies becomes mandatory</p>
+</div>
+{%endblock%}
